@@ -9,9 +9,9 @@
 
 
 mod delicious_snacks {
-    // 将模块中的常量引入并为它们提供新的名称
-    pub use self::fruits::PEAR as fruit;
-    pub use self::veggies::CUCUMBER as veggie;
+    // TODO: Fix these use statements
+   pub use self::fruits::PEAR as fruit;
+   pub use self::veggies::CUCUMBER as veggie;
 
     mod fruits {
         pub const PEAR: &'static str = "Pear";

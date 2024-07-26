@@ -17,5 +17,5 @@ mod sausage_factory {
 }
 
 fn main() {
-    crate::sausage_factory::make_sausage();
+    sausage_factory::make_sausage();
 }

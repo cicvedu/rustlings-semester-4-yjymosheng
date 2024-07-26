@@ -15,13 +15,13 @@
 
 
 // Put your function here!
-fn calculate_price_of_apples (num:i32)->i32{
-    if num>40 {
-        num
-    }else {2*num}
+fn calculate_price_of_apples (a:i32)->i32{
+    if a>40 {
+        a
+    }else {
+        a*2
+    }
 }
-
-
 // Don't modify this function!
 #[test]
 fn verify_test() {
@@ -35,4 +35,3 @@ fn verify_test() {
     assert_eq!(41, price3);
     assert_eq!(65, price4);
 }
-
